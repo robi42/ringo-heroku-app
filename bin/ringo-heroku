@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec java -Xbootclasspath/p:lib/js.jar -jar run.jar $1 -p $PORT
