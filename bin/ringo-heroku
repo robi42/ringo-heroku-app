@@ -1,3 +1,3 @@
 #!/bin/sh
 
-exec java -Xbootclasspath/p:lib/js.jar -Dringo.classpath=jars/** -jar run.jar $1 -p $PORT
+exec java -Xbootclasspath/p:jars/js.jar -Dringo.classpath=jars/** -jar run.jar $1 -p $PORT
